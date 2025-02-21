@@ -1,12 +1,12 @@
 [project]
-name = "projeto-streamlit"
+name = "projeto-pratico"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Tiago Cavalca",email = "t.cavalca47@gmail.com"}
+    {name = "Tiago Cavalca",email = "T.cavalca47@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "streamlit (>=1.42.2,<2.0.0)",
     "pandas (>=2.2.3,<3.0.0)"
