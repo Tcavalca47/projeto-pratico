@@ -3,10 +3,10 @@ name = "projeto-streamlit"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Tiago Cavalca",email = "t.cavalca47@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "streamlit (>=1.42.2,<2.0.0)",
     "pandas (>=2.2.3,<3.0.0)"
