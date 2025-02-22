@@ -1,18 +1,16 @@
-[project]
+[tool.poetry]
 name = "projeto-pratico"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Tiago Cavalca",email = "T.cavalca47@gmail.com"}
-]
+authors = ["Tiago Cavalca <T.cavalca47@gmail.com>"]
 readme = "README.md"
 package-mode = false
-requires-python = ">=3.12"
-dependencies = [
-    "streamlit (>=1.42.2,<2.0.0)",
-    "pandas (>=2.2.3,<3.0.0)"
-]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.42.2"
+pandas = "^2.2.3"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
